@@ -1,0 +1,24 @@
+# Site settings
+title: "Your Name Here"
+email: your-email@example.com
+description: >-
+  Placeholder description of your personal site. Replace this with a
+  sentence or two about who you are and what this site is about.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jaredlincenberg.github.io" # the base hostname & protocol for your site
+
+# Author / social links (placeholders - fill in or remove)
+twitter_username: your_twitter_handle
+github_username:  jaredlincenberg
+linkedin_username: your_linkedin_handle
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
