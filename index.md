@@ -3,5 +3,6 @@ layout: home
 title: Home
 ---
 
-Placeholder homepage content. Replace this with an introduction about
-yourself, your work, or whatever you'd like visitors to see first.
+Hi, I'm Jared Lincenberg. I'm interested in nature and programming.
+
+Find me on [LinkedIn](https://www.linkedin.com/in/jared-lincenberg/) or [GitHub](https://github.com/jaredlincenberg).

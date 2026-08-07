@@ -1,16 +1,14 @@
 # Site settings
-title: "Your Name Here"
-email: your-email@example.com
+title: "Jared Lincenberg"
+email: jaredlincenberg@gmail.com
 description: >-
-  Placeholder description of your personal site. Replace this with a
-  sentence or two about who you are and what this site is about.
+  Interested in nature and programming.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jaredlincenberg.github.io" # the base hostname & protocol for your site
 
-# Author / social links (placeholders - fill in or remove)
-twitter_username: your_twitter_handle
+# Author / social links
 github_username:  jaredlincenberg
-linkedin_username: your_linkedin_handle
+linkedin_username: jared-lincenberg
 
 # Build settings
 theme: minima
