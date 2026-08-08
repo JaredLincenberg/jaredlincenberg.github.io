@@ -1,0 +1,50 @@
+2026-07-10-berkeley-park-bee.jpeg:
+  location: Berkeley Park
+  description: Bee
+  datetime: "2026-07-10 12:11:50"
+  lat: 39.7834389
+  lon: -105.0519778
+  observation: https://www.inaturalist.org/observations/380146012
+
+2026-07-14-washington-park-dragonfly.jpeg:
+  location: Washington Park
+  description: Dragonfly
+  datetime: "2026-07-14 14:35:46"
+  lat: 39.6957083
+  lon: -104.972825
+  observation: https://www.inaturalist.org/observations/381509761
+
+2026-07-29-gallup-gardens-platyhelminthes.jpeg:
+  location: Gallup Gardens
+  description: Platyhelminthes
+  datetime: "2026-07-29 19:26:11"
+  lat: 39.6076861
+  lon: -105.0028083
+  observation: https://www.inaturalist.org/observations/386450522
+  related_observations:
+    - https://www.inaturalist.org/observations/386450358
+    - https://www.inaturalist.org/observations/386450736
+    - https://www.inaturalist.org/observations/386450805
+    - https://www.inaturalist.org/observations/386450884
+
+2026-08-04-bar-lake-furrow-bee.jpeg:
+  location: Bar Lake
+  description: Furrow bee
+  datetime: "2026-08-04 14:56:36"
+  lat: 39.9366389
+  lon: -104.7522194
+  observation: https://www.inaturalist.org/observations/388329516
+
+2026-08-04-bar-lake-bird.jpeg:
+  location: Bar Lake
+  description: Bird
+  datetime: "2026-08-04 14:25:21"
+  lat: 39.9354083
+  lon: -104.7531278
+
+2026-08-06-broomfield-bee.jpeg:
+  location: Broomfield
+  description: Bee
+  datetime: "2026-08-06 18:19:11"
+  lat: 39.9172028
+  lon: -105.0684806
