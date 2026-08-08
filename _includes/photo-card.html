@@ -1,0 +1,32 @@
+{% assign ratio = include.photo.width | times: 1.0 | divided_by: include.photo.height %}
+{% if ratio > 2.0 %}
+  {% assign crop_class = " crop-wide" %}
+  {% assign box_ratio = "2/1" %}
+{% elsif ratio < 0.5 %}
+  {% assign crop_class = " crop-tall" %}
+  {% assign box_ratio = "1/2" %}
+{% else %}
+  {% assign crop_class = "" %}
+  {% assign box_ratio = include.photo.width | append: "/" | append: include.photo.height %}
+{% endif %}
+{% assign photo_date = include.photo.datetime | date: "%B %-d, %Y" %}
+<figure class="photo-card{% if include.photo.highlight %} is-highlight{% endif %}">
+  <a href="https://jaredlincenberg.github.io/photos/{{ include.filename }}" target="_blank" rel="noopener" class="photo-frame{{ crop_class }}" data-location="{{ include.photo.location | escape }}" data-date="{{ photo_date }}" data-caption="{{ include.photo.caption | escape }}" data-observation="{{ include.photo.observation }}">
+    <img src="https://jaredlincenberg.github.io/photos/{{ include.filename }}" alt="{{ include.photo.alt | escape }}" width="{{ include.photo.width }}" height="{{ include.photo.height }}" style="aspect-ratio: {{ box_ratio }};" loading="lazy">
+  </a>
+  <figcaption>
+    <div class="photo-meta">
+      <span class="photo-location">{{ include.photo.location }}</span>
+      <span class="photo-date">{{ photo_date }}</span>
+    </div>
+    {% if include.photo.caption and include.photo.caption != "" %}<p class="photo-caption">{{ include.photo.caption }}</p>{% endif %}
+    {% if include.photo.observation %}
+    <div class="photo-links">
+      <a href="{{ include.photo.observation }}" class="photo-observation-link" target="_blank" rel="noopener">View on iNaturalist &rarr;</a>
+      {% if include.photo.related_observations %}
+      <span class="photo-related">Related: {% for url in include.photo.related_observations %}<a href="{{ url }}" target="_blank" rel="noopener">{{ forloop.index }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
+      {% endif %}
+    </div>
+    {% endif %}
+  </figcaption>
+</figure>

@@ -33,7 +33,7 @@
   </div>
 </header>
 
-<main>
+<main{% if page.wide %} class="wide"{% endif %}>
 {% if page.eyebrow %}<a href="{% if page.back_url %}{{ page.back_url | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" class="eyebrow">{{ page.eyebrow }}</a>{% endif %}
 {{ content }}
 </main>
@@ -48,5 +48,6 @@
 </footer>
 
 <script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
+{% if page.url contains '/photos' %}<script src="{{ '/assets/js/lightbox.js' | relative_url }}" defer></script>{% endif %}
 </body>
 </html>
