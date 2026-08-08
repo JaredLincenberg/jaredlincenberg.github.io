@@ -26,7 +26,11 @@
     <a href="{{ '/photos/' | relative_url }}"{% if page.url contains '/photos' %} class="active"{% endif %}>Photos</a>
     <a href="{{ '/about/' | relative_url }}"{% if page.url contains '/about' %} class="active"{% endif %}>About</a>
   </nav>
-  <button class="theme-toggle" type="button" aria-label="Toggle dark mode"><span class="knob"></span></button>
+  <div class="theme-toggle-wrap">
+    <span class="theme-toggle-label" data-theme-label="light">Light</span>
+    <button class="theme-toggle" type="button" aria-label="Toggle dark mode"><span class="knob"></span></button>
+    <span class="theme-toggle-label" data-theme-label="dark">Dark</span>
+  </div>
 </header>
 
 <main>

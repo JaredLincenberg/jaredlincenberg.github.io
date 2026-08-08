@@ -72,6 +72,22 @@ a { text-decoration: none; color: inherit; }
   color: var(--blue-col);
 }
 
+.theme-toggle-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font: 500 12px/1 'IBM Plex Mono', monospace;
+}
+
+.theme-toggle-label {
+  color: var(--sub-col);
+  transition: color .15s;
+}
+
+.theme-toggle-label.active {
+  color: var(--blue-col);
+}
+
 .theme-toggle {
   width: 38px;
   height: 20px;
@@ -81,6 +97,7 @@ a { text-decoration: none; color: inherit; }
   cursor: pointer;
   border: 1px solid var(--border-col);
   padding: 0;
+  flex-shrink: 0;
 }
 
 .theme-toggle .knob {
@@ -143,11 +160,17 @@ a { text-decoration: none; color: inherit; }
   padding: 13px 24px;
   border-radius: 6px;
   font: 600 14px 'Work Sans', sans-serif;
+  text-decoration: none;
+  transition: background .15s, border-color .15s, color .15s, opacity .15s;
 }
 
 .btn-primary {
   background: var(--accent);
   color: var(--accent-text-col);
+}
+
+.btn-primary:hover {
+  opacity: .85;
 }
 
 .btn-secondary {
@@ -156,11 +179,16 @@ a { text-decoration: none; color: inherit; }
   font-weight: 500;
 }
 
+.btn-secondary:hover {
+  border-color: var(--blue-col);
+  color: var(--blue-col);
+}
+
 /* Bento tiles */
 
 .bento {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1px;
   background: var(--border-col);
 }
@@ -169,6 +197,12 @@ a { text-decoration: none; color: inherit; }
   background: var(--tile-bg);
   padding: 24px;
   display: block;
+  text-decoration: none;
+  transition: background .15s;
+}
+
+.bento-tile:hover {
+  background: var(--border-col);
 }
 
 .bento-label {
@@ -244,11 +278,18 @@ main ul {
 
 /* Blog post article */
 
-.article .eyebrow {
+.eyebrow {
   font: 500 11px/1 'IBM Plex Mono', monospace;
   color: var(--mono-col);
   letter-spacing: .04em;
   margin-bottom: 16px;
+}
+
+.disclaimer {
+  font: 500 14px/1.5 'IBM Plex Mono', monospace;
+  color: var(--mono-col);
+  letter-spacing: .01em;
+  margin-bottom: 20px;
 }
 
 .article-title {
