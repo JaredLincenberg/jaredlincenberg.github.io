@@ -2,6 +2,7 @@
 layout: default
 title: Field Notes
 permalink: /field-notes/
+eyebrow: "~/field-notes"
 ---
 
 # Field Notes

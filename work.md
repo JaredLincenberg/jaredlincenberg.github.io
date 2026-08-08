@@ -2,6 +2,7 @@
 layout: default
 title: Work
 permalink: /work/
+eyebrow: "~/work"
 ---
 
 # Work

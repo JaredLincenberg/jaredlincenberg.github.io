@@ -279,10 +279,17 @@ main ul {
 /* Blog post article */
 
 .eyebrow {
+  display: inline-block;
   font: 500 11px/1 'IBM Plex Mono', monospace;
   color: var(--mono-col);
   letter-spacing: .04em;
   margin-bottom: 16px;
+  text-decoration: none;
+  transition: color .15s;
+}
+
+.eyebrow:hover {
+  color: var(--blue-col);
 }
 
 .disclaimer {

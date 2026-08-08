@@ -34,6 +34,7 @@
 </header>
 
 <main>
+{% if page.eyebrow %}<a href="{% if page.back_url %}{{ page.back_url | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" class="eyebrow">{{ page.eyebrow }}</a>{% endif %}
 {{ content }}
 </main>
 
