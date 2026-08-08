@@ -261,6 +261,21 @@ main ul {
   margin: 0 0 22px;
 }
 
+.article-body img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 0 8px;
+}
+
+.article-body img + em {
+  display: block;
+  font: 13px/1.5 'Work Sans', sans-serif;
+  color: var(--sub-col);
+  margin: 0 0 22px;
+}
+
 .article-body pre {
   background: var(--tile-bg);
   border: 1px solid var(--border-col);

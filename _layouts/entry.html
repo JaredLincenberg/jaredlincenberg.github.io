@@ -2,16 +2,16 @@
 layout: default
 ---
 <article class="article">
-  <div class="eyebrow">~/writing</div>
+  <div class="eyebrow">{{ page.eyebrow }}</div>
   <h1 class="article-title">{{ page.title }}</h1>
-  <div class="article-meta">{{ page.date | date: "%B %Y" }}</div>
+  <div class="article-meta">{{ page.date | date: "%B %-d, %Y" }}</div>
 
   <div class="article-body">
     {{ content }}
   </div>
 
   <div class="article-footer">
-    <a href="{{ '/writing/' | relative_url }}" class="back-link">&larr; Back to writing</a>
+    <a href="{{ page.back_url | relative_url }}" class="back-link">&larr; {{ page.back_label }}</a>
     <div class="article-footer-links">
       <a href="https://github.com/{{ site.github_username }}">GitHub</a>
       <a href="https://www.inaturalist.org/people/jared_lincenberg">iNaturalist</a>

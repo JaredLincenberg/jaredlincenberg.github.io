@@ -14,6 +14,29 @@ linkedin_username: jared-lincenberg
 plugins:
   - jekyll-feed
 
+collections:
+  field_notes:
+    output: true
+    permalink: /field-notes/:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: entry
+      eyebrow: "~/writing"
+      back_url: "/writing/"
+      back_label: "Back to writing"
+  - scope:
+      path: ""
+      type: "field_notes"
+    values:
+      layout: entry
+      eyebrow: "~/field-notes"
+      back_url: "/field-notes/"
+      back_label: "Back to field notes"
+
 # Exclude from processing
 exclude:
   - Gemfile
