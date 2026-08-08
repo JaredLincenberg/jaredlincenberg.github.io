@@ -203,6 +203,17 @@ main p {
   color: var(--text-col);
 }
 
+main a {
+  color: var(--blue-col);
+  text-decoration: underline;
+  text-decoration-color: var(--border-col);
+  text-underline-offset: 2px;
+}
+
+main a:hover {
+  text-decoration-color: currentColor;
+}
+
 main ul {
   font: 17px/1.75 'Work Sans', sans-serif;
   color: var(--text-col);
