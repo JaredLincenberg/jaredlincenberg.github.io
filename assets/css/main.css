@@ -302,15 +302,23 @@ main ul {
   .photo-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
-@media (min-width: 900px) {
-  /* main.wide caps at 1100px, which only fits 3 tiles at the size a
-     4th column would need — break .gallery-bleed out to the full
-     viewport (regardless of that cap) so .photo-grid has room to add
-     a 4th column at the same tile size instead of shrinking all of
-     them to fit. Headings/text outside .gallery-bleed are untouched.
-     337px matches the previous 3-column tile size at main's 1100px
-     cap; auto-fill keeps every tile that size and only adds a column
-     once there's genuinely room for one. */
+@media (min-width: 1100px) {
+  /* Starts exactly where main.wide's own max-width caps out (1100px),
+     not before — below that point main (and its text) is still
+     growing fluidly with the viewport, same as the 2-column grid
+     tier's 1fr tiles, so the two stay in sync. Triggering the fixed
+     tile size any earlier (it used to be 900px) left a dead zone where
+     text kept growing toward the cap while the grid, already pinned to
+     a fixed tile size, sat stuck at 2 columns with empty space around
+     them — text visibly stretching while the images didn't.
+
+     From here on, break .gallery-bleed out to the full viewport
+     (regardless of main's cap) so .photo-grid has room to add a 4th
+     column at the same tile size instead of shrinking all of them to
+     fit. Headings/text outside .gallery-bleed are unaffected. 337px
+     matches the previous 3-column tile size at main's 1100px cap;
+     auto-fill keeps every tile that size and only adds a column once
+     there's genuinely room for one. */
   .gallery-bleed {
     width: 100vw;
     position: relative;
