@@ -1,0 +1,3 @@
+{% assign photo = site.data.photos[include.filename] %}
+{% assign photo_path = photo.county | slugify | append: "/" | append: include.filename %}
+<img src="https://jaredlincenberg.github.io/photos/{{ photo_path }}" alt="{{ include.alt | default: photo.alt | escape }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="lazy">

@@ -23,7 +23,7 @@
     <a href="{{ '/work/' | relative_url }}"{% if page.url contains '/work' %} class="active"{% endif %}>Work</a>
     <a href="{{ '/writing/' | relative_url }}"{% if page.url contains '/writing' or page.layout == 'post' %} class="active"{% endif %}>Writing</a>
     <a href="{{ '/field-notes/' | relative_url }}"{% if page.url contains '/field-notes' %} class="active"{% endif %}>Field Notes</a>
-    <a href="{{ '/photos/' | relative_url }}"{% if page.url contains '/photos' %} class="active"{% endif %}>Photos</a>
+    <a href="{{ '/gallery/' | relative_url }}"{% if page.url contains '/gallery' %} class="active"{% endif %}>Photos</a>
     <a href="{{ '/about/' | relative_url }}"{% if page.url contains '/about' %} class="active"{% endif %}>About</a>
   </nav>
   <div class="theme-toggle-wrap">
@@ -48,6 +48,6 @@
 </footer>
 
 <script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
-{% if page.url contains '/photos' %}<script src="{{ '/assets/js/lightbox.js' | relative_url }}" defer></script>{% endif %}
+{% if page.url contains '/gallery' %}<script src="{{ '/assets/js/lightbox.js' | relative_url }}" defer></script>{% endif %}
 </body>
 </html>

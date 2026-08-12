@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Photos
-permalink: /photos/
-eyebrow: "~/photos"
+permalink: /gallery/
+eyebrow: "~/gallery"
 wide: true
 ---
 
