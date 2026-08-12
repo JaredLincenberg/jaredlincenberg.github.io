@@ -10,9 +10,10 @@
   {% assign box_ratio = include.photo.width | append: "/" | append: include.photo.height %}
 {% endif %}
 {% assign photo_date = include.photo.datetime | date: "%B %-d, %Y" %}
+{% assign photo_path = include.photo.county | slugify | append: "/" | append: include.filename %}
 <figure class="photo-card{% if include.photo.highlight %} is-highlight{% endif %}">
-  <a href="https://jaredlincenberg.github.io/photos/{{ include.filename }}" target="_blank" rel="noopener" class="photo-frame{{ crop_class }}" data-location="{{ include.photo.location | escape }}" data-date="{{ photo_date }}" data-caption="{{ include.photo.caption | escape }}" data-observation="{{ include.photo.observation }}">
-    <img src="https://jaredlincenberg.github.io/photos/{{ include.filename }}" alt="{{ include.photo.alt | escape }}" width="{{ include.photo.width }}" height="{{ include.photo.height }}" style="aspect-ratio: {{ box_ratio }};" loading="lazy">
+  <a href="https://jaredlincenberg.github.io/photos/{{ photo_path }}" target="_blank" rel="noopener" class="photo-frame{{ crop_class }}" data-location="{{ include.photo.location | escape }}" data-date="{{ photo_date }}" data-caption="{{ include.photo.caption | escape }}" data-observation="{{ include.photo.observation }}">
+    <img src="https://jaredlincenberg.github.io/photos/{{ photo_path }}" alt="{{ include.photo.alt | escape }}" width="{{ include.photo.width }}" height="{{ include.photo.height }}" style="aspect-ratio: {{ box_ratio }};" loading="lazy">
   </a>
   <figcaption>
     <div class="photo-meta">

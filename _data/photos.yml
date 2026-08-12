@@ -1,5 +1,6 @@
 2026-07-10-berkeley-park-bee.jpeg:
   location: Berkeley Park
+  county: Denver County
   width: 4032
   height: 3024
   description: Bee
@@ -13,6 +14,7 @@
 
 2026-07-14-washington-park-dragonfly.jpeg:
   location: Washington Park
+  county: Denver County
   width: 4032
   height: 3024
   description: Dragonfly
@@ -26,6 +28,7 @@
 
 2026-07-29-gallup-gardens-platyhelminthes.jpeg:
   location: Gallup Gardens
+  county: Arapahoe County
   width: 2048
   height: 1536
   description: Platyhelminthes
@@ -44,6 +47,7 @@
 
 2026-08-04-bar-lake-furrow-bee.jpeg:
   location: Bar Lake
+  county: Adams County
   width: 4032
   height: 3024
   description: Furrow bee
@@ -57,6 +61,7 @@
 
 2026-08-04-bar-lake-bird.jpeg:
   location: Bar Lake
+  county: Adams County
   width: 4032
   height: 3024
   description: Bird
@@ -68,6 +73,7 @@
 
 2026-08-06-broomfield-bee.jpeg:
   location: Broomfield
+  county: Broomfield County
   width: 4032
   height: 3024
   description: Bee
@@ -79,6 +85,7 @@
 
 2026-08-09-crown-hill-park-leafhopper.jpeg:
   location: Crown Hill Park
+  county: Jefferson County
   width: 2048
   height: 1536
   description: Leafhopper
@@ -91,6 +98,7 @@
 
 2026-08-09-crown-hill-park-sunflower-beetle.jpeg:
   location: Crown Hill Park
+  county: Jefferson County
   width: 2048
   height: 1536
   description: Sunflower beetle
@@ -103,6 +111,7 @@
 
 2026-08-10-anythink-nature-library-bee.jpeg:
   location: Anythink Nature Library
+  county: Adams County
   width: 4032
   height: 3024
   description: Bee
@@ -115,6 +124,7 @@
 
 2026-08-10-anythink-nature-library-bee-fly.jpeg:
   location: Anythink Nature Library
+  county: Adams County
   width: 4032
   height: 3024
   description: Bee fly
@@ -127,6 +137,7 @@
 
 2026-08-10-anythink-nature-library-bumble-bee.jpeg:
   location: Anythink Nature Library
+  county: Adams County
   width: 4032
   height: 3024
   description: Bumble bee
@@ -139,6 +150,7 @@
 
 2026-08-11-platt-park-stink-bug-wasp.jpeg:
   location: Platt Park
+  county: Denver County
   width: 4032
   height: 3024
   description: Four-banded stink bug wasp
@@ -151,6 +163,7 @@
 
 2026-08-11-platt-park-masked-bee.jpeg:
   location: Platt Park
+  county: Denver County
   width: 4032
   height: 3024
   description: Masked bee
@@ -163,6 +176,7 @@
 
 2026-08-11-platt-park-bee.jpeg:
   location: Platt Park
+  county: Denver County
   width: 4032
   height: 3024
   description: Bee
