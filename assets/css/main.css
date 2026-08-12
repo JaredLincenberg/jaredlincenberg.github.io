@@ -303,11 +303,14 @@ main ul {
 }
 
 @media (min-width: 900px) {
-  .photo-grid { grid-template-columns: repeat(3, 1fr); }
-}
-
-@media (min-width: 1200px) {
-  .photo-grid { grid-template-columns: repeat(4, 1fr); }
+  /* Fixed tile width (not 1fr) so adding a 4th column when there's
+     room doesn't shrink every tile to fit — only the column count
+     changes, not the image size. 248px matches the previous 4-column
+     size at the grid's 1100px max width. */
+  .photo-grid {
+    grid-template-columns: repeat(auto-fill, 248px);
+    justify-content: center;
+  }
 }
 
 .photo-card {
