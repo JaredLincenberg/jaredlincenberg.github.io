@@ -80,12 +80,41 @@ immediately after.
    version of `taxon.name` if there's no common name) as the
    `description`.
 
-   If nothing matches confidently by time/GPS, briefly download just
-   that one photo, view it to propose a description, then delete it
-   immediately — and flag to the user that this ID is your visual guess,
-   not an iNaturalist-confirmed one, so they can correct it (they may
-   also just hand you the correct observation URL directly, which
-   overrides everything above).
+   **If nothing matches confidently by time/GPS, don't guess — hand it
+   back to the user.** Viewing the image costs real tokens (a 2048×1536
+   photo is ~2,500 tokens just to encode, before any reasoning) and a
+   visual guess is routinely wrong or gets overridden anyway once the
+   user checks iNaturalist themselves. Instead, report three things and
+   stop:
+   - **Image name** — the raw filename in the photos repo.
+   - **Location** — the reverse-geocoded place name from step 3.
+   - **A pre-scoped iNaturalist search link**, built as the observed
+     time ± 1 hour so the user can eyeball their own observations list
+     and pick the right one in seconds:
+     ```python
+     from datetime import datetime, timedelta
+     from urllib.parse import quote
+
+     # dt = DateTimeOriginal + OffsetTimeOriginal, e.g. "2026-08-09T19:53:16-06:00"
+     dt = datetime.fromisoformat("2026-08-09T19:53:16-06:00")
+     d1 = quote((dt - timedelta(hours=1)).isoformat())
+     d2 = quote((dt + timedelta(hours=1)).isoformat())
+     url = f"https://www.inaturalist.org/observations?user_id=jared_lincenberg&verifiable=any&d1={d1}&d2={d2}"
+     ```
+
+   Then wait for one of:
+   - an **observation URL** — fetch it and proceed as if matched above;
+   - a **description** — use it directly, no `observation:` link;
+   - **"pass" / "later"** — skip this file for now and move to the next
+     one. No state tracking is needed for this: a skipped file simply
+     keeps its camera filename in the photos repo, so it will show back
+     up automatically the next time step 1 runs — whether that's later
+     in the same session or a fresh one.
+
+   Only fall back to actually viewing the image yourself if the user
+   explicitly asks you to guess (e.g. "I don't know, take a look") —
+   treat it as an opt-in last resort, not the default path, given the
+   token cost and its track record of being overridden.
 
 5. **Build the new filename** and confirm the full proposed mapping
    (old name → new name, location, description, observation link) with
