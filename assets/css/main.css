@@ -303,13 +303,30 @@ main ul {
 }
 
 @media (min-width: 900px) {
-  /* Fixed tile width (not 1fr) so adding a 4th column when there's
-     room doesn't shrink every tile to fit — only the column count
-     changes, not the image size. 248px matches the previous 4-column
-     size at the grid's 1100px max width. */
+  /* main.wide caps at 1100px, which only fits 3 tiles at the size a
+     4th column would need — break .gallery-bleed out to the full
+     viewport (regardless of that cap) so .photo-grid has room to add
+     a 4th column at the same tile size instead of shrinking all of
+     them to fit. Headings/text outside .gallery-bleed are untouched.
+     337px matches the previous 3-column tile size at main's 1100px
+     cap; auto-fill keeps every tile that size and only adds a column
+     once there's genuinely room for one. */
+  .gallery-bleed {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
   .photo-grid {
-    grid-template-columns: repeat(auto-fill, 248px);
+    grid-template-columns: repeat(auto-fill, 337px);
     justify-content: center;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
