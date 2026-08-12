@@ -76,3 +76,99 @@
   lon: -105.0684806
   alt: A bee in Broomfield
   caption: ""
+
+2026-08-09-crown-hill-park-leafhopper.jpeg:
+  location: Crown Hill Park
+  width: 2048
+  height: 1536
+  description: Leafhopper
+  datetime: "2026-08-09 19:53:16"
+  lat: 39.7555917
+  lon: -105.1027139
+  alt: A leafhopper at Crown Hill Park
+  caption: ""
+  observation: https://www.inaturalist.org/observations/389876396
+
+2026-08-09-crown-hill-park-sunflower-beetle.jpeg:
+  location: Crown Hill Park
+  width: 2048
+  height: 1536
+  description: Sunflower beetle
+  datetime: "2026-08-09 20:14:09"
+  lat: 39.7551278
+  lon: -105.1012333
+  alt: A sunflower beetle at Crown Hill Park
+  caption: ""
+  observation: https://www.inaturalist.org/observations/389876329
+
+2026-08-10-anythink-nature-library-bee.jpeg:
+  location: Anythink Nature Library
+  width: 4032
+  height: 3024
+  description: Bee
+  datetime: "2026-08-10 11:58:01"
+  lat: 39.9452222
+  lon: -104.909125
+  alt: A bee at Anythink Nature Library
+  caption: ""
+  observation: https://www.inaturalist.org/observations/390087339
+
+2026-08-10-anythink-nature-library-bee-fly.jpeg:
+  location: Anythink Nature Library
+  width: 4032
+  height: 3024
+  description: Bee fly
+  datetime: "2026-08-10 12:05:27"
+  lat: 39.9459694
+  lon: -104.9088972
+  alt: A bee fly at Anythink Nature Library
+  caption: ""
+  observation: https://www.inaturalist.org/observations/390087105
+
+2026-08-10-anythink-nature-library-bumble-bee.jpeg:
+  location: Anythink Nature Library
+  width: 4032
+  height: 3024
+  description: Bumble bee
+  datetime: "2026-08-10 13:23:24"
+  lat: 39.9452972
+  lon: -104.9090194
+  alt: A bumble bee at Anythink Nature Library
+  caption: ""
+  observation: https://www.inaturalist.org/observations/390084165
+
+2026-08-11-platt-park-stink-bug-wasp.jpeg:
+  location: Platt Park
+  width: 4032
+  height: 3024
+  description: Four-banded stink bug wasp
+  datetime: "2026-08-11 13:57:16"
+  lat: 39.6889194
+  lon: -104.9831778
+  alt: A four-banded stink bug wasp at Platt Park
+  caption: ""
+  observation: https://www.inaturalist.org/observations/390378555
+
+2026-08-11-platt-park-masked-bee.jpeg:
+  location: Platt Park
+  width: 4032
+  height: 3024
+  description: Masked bee
+  datetime: "2026-08-11 14:12:05"
+  lat: 39.6889333
+  lon: -104.9831611
+  alt: A masked bee at Platt Park
+  caption: ""
+  observation: https://www.inaturalist.org/observations/390379069
+
+2026-08-11-platt-park-bee.jpeg:
+  location: Platt Park
+  width: 4032
+  height: 3024
+  description: Bee
+  datetime: "2026-08-11 14:12:47"
+  lat: 39.6889083
+  lon: -104.9831167
+  alt: A bee at Platt Park
+  caption: ""
+  observation: https://www.inaturalist.org/observations/390379082
