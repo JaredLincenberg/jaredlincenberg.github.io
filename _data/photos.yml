@@ -45,8 +45,8 @@
     - https://www.inaturalist.org/observations/386450884
   highlight: true
 
-2026-08-04-bar-lake-furrow-bee.jpeg:
-  location: Bar Lake
+2026-08-04-barr-lake-furrow-bee.jpeg:
+  location: Barr Lake
   county: Adams County
   width: 4032
   height: 3024
@@ -54,13 +54,13 @@
   datetime: "2026-08-04 14:56:36"
   lat: 39.9366389
   lon: -104.7522194
-  alt: A furrow bee at Bar Lake
+  alt: A furrow bee at Barr Lake
   caption: ""
   observation: https://www.inaturalist.org/observations/388329516
   highlight: true
 
-2026-08-04-bar-lake-bird.jpeg:
-  location: Bar Lake
+2026-08-04-barr-lake-bird.jpeg:
+  location: Barr Lake
   county: Adams County
   width: 4032
   height: 3024
@@ -68,11 +68,24 @@
   datetime: "2026-08-04 14:25:21"
   lat: 39.9354083
   lon: -104.7531278
-  alt: A bird at Bar Lake
+  alt: A bird at Barr Lake
   caption: ""
 
-2026-08-06-broomfield-bee.jpeg:
-  location: Broomfield
+2026-08-04-barr-lake-longhorn-bee.jpeg:
+  location: Barr Lake
+  county: Adams County
+  width: 4032
+  height: 3024
+  description: Longhorn bee
+  datetime: "2026-08-04 16:10:46"
+  lat: 39.9376250
+  lon: -104.7511972
+  alt: A longhorn bee at Barr Lake
+  caption: ""
+  observation: https://www.inaturalist.org/observations/388322783
+
+2026-08-06-broomfield-community-park-bee.jpeg:
+  location: Broomfield Community Park
   county: Broomfield County
   width: 4032
   height: 3024
@@ -80,8 +93,47 @@
   datetime: "2026-08-06 18:19:11"
   lat: 39.9172028
   lon: -105.0684806
-  alt: A bee in Broomfield
+  alt: A bee at Broomfield Community Park
   caption: ""
+
+2026-08-06-broomfield-community-park-longhorn-bee.jpeg:
+  location: Broomfield Community Park
+  county: Broomfield County
+  width: 4032
+  height: 3024
+  description: Longhorn bee
+  datetime: "2026-08-06 17:45:40"
+  lat: 39.9172972
+  lon: -105.0684444
+  alt: A longhorn bee at Broomfield Community Park
+  caption: ""
+  observation: https://www.inaturalist.org/observations/388913051
+
+2026-08-06-broomfield-community-park-sunflower-seed-weevil.jpeg:
+  location: Broomfield Community Park
+  county: Broomfield County
+  width: 4032
+  height: 3024
+  description: Sunflower seed weevil
+  datetime: "2026-08-06 18:15:21"
+  lat: 39.9177639
+  lon: -105.0679694
+  alt: A sunflower seed weevil at Broomfield Community Park
+  caption: ""
+  observation: https://www.inaturalist.org/observations/388907323
+
+2026-08-06-broomfield-community-park-ambush-bug.jpeg:
+  location: Broomfield Community Park
+  county: Broomfield County
+  width: 4032
+  height: 3024
+  description: Ambush bug
+  datetime: "2026-08-06 18:17:26"
+  lat: 39.9172639
+  lon: -105.0684444
+  alt: An ambush bug at Broomfield Community Park
+  caption: ""
+  observation: https://www.inaturalist.org/observations/388906577
 
 2026-08-09-crown-hill-park-leafhopper.jpeg:
   location: Crown Hill Park
@@ -186,3 +238,184 @@
   alt: A bee at Platt Park
   caption: ""
   observation: https://www.inaturalist.org/observations/390379082
+
+2026-04-25-gore-range-trail-mountain-goat.jpeg:
+  location: Gore Range Trail
+  county: Summit County
+  width: 4032
+  height: 3024
+  description: Mountain goat
+  datetime: "2026-04-25 17:06:12"
+  lat: 39.6308139
+  lon: -106.1358028
+  alt: A mountain goat at Gore Range Trail
+  caption: ""
+  observation: https://www.inaturalist.org/observations/354109421
+
+2026-04-25-gore-range-trail-mountain-goat-2.jpeg:
+  location: Gore Range Trail
+  county: Summit County
+  width: 4032
+  height: 3024
+  description: Mountain goat
+  datetime: "2026-04-25 17:06:57"
+  lat: 39.6307500
+  lon: -106.1357806
+  alt: A mountain goat at Gore Range Trail
+  caption: ""
+  observation: https://www.inaturalist.org/observations/354109421
+
+2026-04-25-gore-range-trail-pika.jpeg:
+  location: Gore Range Trail
+  county: Summit County
+  width: 4032
+  height: 3024
+  description: Pika
+  datetime: "2026-04-25 17:50:13"
+  lat: 39.6314889
+  lon: -106.1347889
+  alt: A pika at Gore Range Trail
+  caption: ""
+  observation: https://www.inaturalist.org/observations/354088819
+
+2026-08-08-sloans-lake-pigeon-horntail.jpeg:
+  location: Sloan's Lake
+  county: Denver County
+  width: 2048
+  height: 1536
+  description: Pigeon horntail
+  datetime: "2026-08-08 19:53:54"
+  lat: 39.7523944
+  lon: -105.0452417
+  alt: A pigeon horntail at Sloan's Lake
+  caption: ""
+  observation: https://www.inaturalist.org/observations/389552315
+
+2026-08-12-carson-nature-center-hunts-bumble-bee.jpeg:
+  location: Carson Nature Center
+  county: Arapahoe County
+  width: 4032
+  height: 3024
+  description: Hunt's bumble bee
+  datetime: "2026-08-12 13:23:29"
+  lat: 39.5822722
+  lon: -105.0306778
+  alt: A hunt's bumble bee at Carson Nature Center
+  caption: ""
+  observation: https://www.inaturalist.org/observations/390710450
+
+2026-08-12-carson-nature-center-bee-fly.jpeg:
+  location: Carson Nature Center
+  county: Arapahoe County
+  width: 4032
+  height: 3024
+  description: Bee fly
+  datetime: "2026-08-12 13:33:20"
+  lat: 39.5838361
+  lon: -105.0292194
+  alt: A bee fly at Carson Nature Center
+  caption: ""
+  observation: https://www.inaturalist.org/observations/390712088
+
+2026-08-12-carson-nature-center-six-lined-racerunner.jpeg:
+  location: Carson Nature Center
+  county: Arapahoe County
+  width: 4032
+  height: 3024
+  description: Six-lined racerunner
+  datetime: "2026-08-12 13:39:54"
+  lat: 39.5833806
+  lon: -105.0287556
+  alt: A six-lined racerunner at Carson Nature Center
+  caption: ""
+  observation: https://www.inaturalist.org/observations/390712394
+
+2026-08-12-carson-nature-center-mud-dauber-wasp.jpeg:
+  location: Carson Nature Center
+  county: Arapahoe County
+  width: 4032
+  height: 3024
+  description: Mud-dauber wasp
+  datetime: "2026-08-12 16:16:53"
+  lat: 39.5830639
+  lon: -105.0289389
+  alt: A mud-dauber wasp at Carson Nature Center
+  caption: ""
+  observation: https://www.inaturalist.org/observations/390712430
+
+2026-08-12-carson-nature-center-jumping-spider.jpeg:
+  location: Carson Nature Center
+  county: Arapahoe County
+  width: 4032
+  height: 3024
+  description: Jumping spider
+  datetime: "2026-08-12 16:20:21"
+  lat: 39.5834917
+  lon: -105.0288250
+  alt: A jumping spider at Carson Nature Center
+  caption: ""
+  observation: https://www.inaturalist.org/observations/390712438
+
+2026-08-12-carson-nature-center-plant-bug.jpeg:
+  location: Carson Nature Center
+  county: Arapahoe County
+  width: 4032
+  height: 3024
+  description: Plant bug
+  datetime: "2026-08-12 16:22:23"
+  lat: 39.5834778
+  lon: -105.0288250
+  alt: A plant bug at Carson Nature Center
+  caption: ""
+
+2026-08-12-carson-nature-center-lace-bug.jpeg:
+  location: Carson Nature Center
+  county: Arapahoe County
+  width: 4032
+  height: 3024
+  description: Lace bug
+  datetime: "2026-08-12 16:25:41"
+  lat: 39.5834806
+  lon: -105.0288250
+  alt: A lace bug at Carson Nature Center
+  caption: ""
+  observation: https://www.inaturalist.org/observations/390714518
+
+2026-08-12-carson-nature-center-milkweed-borer.jpeg:
+  location: Carson Nature Center
+  county: Arapahoe County
+  width: 4032
+  height: 3024
+  description: Milkweed borer
+  datetime: "2026-08-12 16:37:16"
+  lat: 39.5833972
+  lon: -105.0286861
+  alt: A milkweed borer at Carson Nature Center
+  caption: ""
+  observation: https://www.inaturalist.org/observations/390715027
+
+2026-08-14-silverthorne-little-brown-bat.jpeg:
+  location: Silverthorne
+  county: Summit County
+  width: 4032
+  height: 3024
+  description: Little brown bat
+  datetime: "2026-08-14 14:03:29"
+  lat: 39.6540444
+  lon: -106.0941472
+  alt: A little brown bat at Silverthorne
+  caption: ""
+  observation: https://www.inaturalist.org/observations/391213447
+
+2026-08-14-silverthorne-little-brown-bat-2.jpeg:
+  location: Silverthorne
+  county: Summit County
+  width: 4032
+  height: 3024
+  description: Little brown bat
+  datetime: "2026-08-14 14:07:32"
+  lat: 39.6540222
+  lon: -106.0941778
+  alt: A little brown bat at Silverthorne
+  caption: ""
+  observation: https://www.inaturalist.org/observations/391213447
