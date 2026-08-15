@@ -8,7 +8,7 @@ Went to the Broomfield library on August 6th to get a library card for Libby, an
 
 On the walk in, the flower beds were buzzing with bees and other pollinators working every bloom.
 
-{% include photo-embed.html filename="2026-08-06-broomfield-bee.jpeg" alt="Ligated Furrow Bee lifting off a black-eyed Susan flower" %}
+{% include photo-embed.html filename="2026-08-06-broomfield-community-park-bee.jpeg" alt="Ligated Furrow Bee lifting off a black-eyed Susan flower" %}
 _A Ligated Furrow Bee ([Halictus ligatus](https://www.inaturalist.org/observations/388906361)) flying off to pollinate another flower._
 
 Getting the card itself was easy — I'm a Colorado resident, so no trouble there. Getting into the building was a different story. There's a staircase to the left as you walk in, and I was sure it led to a second floor of the library. It didn't! The staff let me know it actually leads to the Broomfield Amphitheater, and we had a good laugh over my honest mistake. They were great: while telling me about their programming, someone pointed me toward the [Broomfield Open Space Action Network](https://broomfieldopenspacefoundation.org/broomfield-open-space-action-network-bosan/), part of the [Broomfield Open Space Foundation](https://broomfieldopenspacefoundation.org/), which I already knew from the [Native Flora and Fauna Broomfield BioBlitz 2026](https://www.inaturalist.org/projects/native-flora-and-fauna-broomfield-bioblitz-2026) project on iNaturalist.
