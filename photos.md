@@ -12,16 +12,16 @@ A running collection of sightings from walks around Colorado, logged on [iNatura
 
 <h2 class="section-heading">Highlights</h2>
 <div class="gallery-bleed"><div class="photo-grid">
-{% for entry in site.data.photos reversed %}{% assign filename = entry[0] %}{% assign photo = entry[1] %}{% if photo.highlight %}
+{% for entry in site.data.photos reversed %}{% assign filename = entry[0] %}{% assign photo = entry[1] %}{% if photo.highlight and photo.gallery != false %}
   {% include photo-card.html filename=filename photo=photo %}
 {% endif %}{% endfor %}
 </div></div>
 
 <h2 class="section-heading">More Photos</h2>
 <div class="gallery-bleed"><div class="photo-grid">
-{% for entry in site.data.photos reversed %}{% assign filename = entry[0] %}{% assign photo = entry[1] %}{% unless photo.highlight %}
+{% for entry in site.data.photos reversed %}{% assign filename = entry[0] %}{% assign photo = entry[1] %}{% if photo.gallery != false and photo.highlight != true %}
   {% include photo-card.html filename=filename photo=photo %}
-{% endunless %}{% endfor %}
+{% endif %}{% endfor %}
 </div></div>
 
 <dialog id="photo-lightbox">
