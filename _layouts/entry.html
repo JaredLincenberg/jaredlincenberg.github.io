@@ -7,6 +7,14 @@ layout: default
   {% assign posted_str = page.posted_date | date: "%Y-%m-%d" %}
   <div class="article-meta">{{ page.date | date: "%B %-d, %Y" }}{% if page.posted_date and posted_str != event_str %} &middot; posted {{ page.posted_date | date: "%B %-d, %Y" }}{% endif %}</div>
 
+  <div class="text-size-control" role="group" aria-label="Text size">
+    <span class="text-size-buttons">
+      <button type="button" class="text-size-btn" data-dir="-1" aria-label="Decrease text size">A&minus;</button>
+      <button type="button" class="text-size-btn" data-dir="1" aria-label="Increase text size">A+</button>
+    </span>
+    <span class="text-size-value" aria-live="polite">100%</span>
+  </div>
+
   <div class="article-body">
     {{ content }}
   </div>
