@@ -1,0 +1,19 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bundle exec jekyll build --quiet 2>&1 | tail -20"
+          },
+          {
+            "type": "command",
+            "command": "grep -rohE 'filename=\"[^\"]*\"' _field_notes/*.md *.md 2>/dev/null | sed -E 's/filename=\"//;s/\"$//' | sort -u | while IFS= read -r f; do grep -Fxq \"${f}:\" _data/photos.yml || echo \"BROKEN PHOTO REF: $f\"; done"
+          }
+        ]
+      }
+    ]
+  }
+}
