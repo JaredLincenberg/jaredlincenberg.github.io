@@ -420,3 +420,16 @@
   alt: A little brown bat at Silverthorne
   caption: ""
   observation: https://www.inaturalist.org/observations/391213447
+
+2026-08-19-washington-park-big-garden.jpeg:
+  location: Washington Park
+  county: Denver County
+  width: 2048
+  height: 1365
+  description: Native flower beds
+  datetime: "2026-08-19 08:30:00"
+  lat: 39.6957083
+  lon: -104.972825
+  alt: Planted native flower beds in the Big Garden at Washington Park, facing north — mowed paths curve between defined beds, sparse coreopsis and cosmos in the near foreground giving way to dense goldenrod behind, with a residential tower on the skyline beyond the trees.
+  caption: "The Big Garden's native beds in bloom, late summer."
+  gallery: false
