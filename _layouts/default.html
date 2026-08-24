@@ -39,7 +39,7 @@
   </div>
 </header>
 
-<main id="main"{% if page.wide %} class="wide"{% endif %}>
+<main id="main"{% if page.wide %} class="wide"{% elsif page.article_wide %} class="article-wide"{% endif %}>
 {% if page.eyebrow %}<a href="{% if page.back_url %}{{ page.back_url | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" class="eyebrow">{{ page.eyebrow }}</a>{% endif %}
 {{ content }}
 </main>

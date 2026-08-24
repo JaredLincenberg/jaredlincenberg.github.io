@@ -276,6 +276,12 @@ main.wide {
   max-width: 1100px;
 }
 
+/* Writing posts read wider than Field Notes' 680px default, without
+   stretching to the gallery grid's 1100px (too long a line for prose). */
+main.article-wide {
+  max-width: 860px;
+}
+
 main h1 {
   font: 700 40px/1.2 'Source Serif 4', serif;
   color: var(--text-col);

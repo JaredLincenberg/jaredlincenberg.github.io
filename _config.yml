@@ -28,6 +28,7 @@ defaults:
       eyebrow: "~/writing"
       back_url: "/writing/"
       back_label: "Back to writing"
+      article_wide: true
   - scope:
       path: ""
       type: "field_notes"
