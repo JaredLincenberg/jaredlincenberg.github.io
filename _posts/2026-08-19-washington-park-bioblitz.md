@@ -4,9 +4,9 @@ date: 2026-08-19
 posted_date: 2026-08-24
 ---
 
-Project: [see results](https://www.inaturalist.org/projects/denver-s-washington-park-big-garden-bioblitz)
+iNaturalist Project: [Denver's Washington Park Big Garden Bioblitz](https://www.inaturalist.org/projects/denver-s-washington-park-big-garden-bioblitz) (8/19/2026)
 
-Previous (Mt. Vernon) blitz: [see results](https://www.inaturalist.org/projects/denver-s-washington-park-mt-vernon-garden-bioblitz)
+iNaturalist Project: [Denver's Washington Park Mt. Vernon Garden Bioblitz](https://www.inaturalist.org/projects/denver-s-washington-park-mt-vernon-garden-bioblitz) (7/14/2026)
 
 {% include photo-embed.html filename="2026-08-19-washington-park-big-garden.jpeg" alt="Planted native flower beds in the Big Garden at Washington Park, facing north — mowed paths curve between defined beds, sparse coreopsis and cosmos in the near foreground giving way to dense goldenrod behind, with a residential tower on the skyline beyond the trees." %}
 _The Big Garden's native beds in bloom, late summer._
