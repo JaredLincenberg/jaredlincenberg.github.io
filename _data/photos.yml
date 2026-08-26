@@ -578,3 +578,248 @@
   alt: A bigbract verbena at Inspiration Point Park
   caption: ""
   observation: https://www.inaturalist.org/observations/393312933
+
+2021-06-16-west-colfax-two-tailed-swallowtail.jpeg:
+  location: West Colfax
+  county: Denver County
+  width: 2173
+  height: 2173
+  description: Two-tailed swallowtail
+  datetime: "2021-06-16 14:27:53"
+  lat: 39.7369917
+  lon: -105.0520167
+  alt: A two-tailed swallowtail at West Colfax
+  caption: ""
+  observation: https://www.inaturalist.org/observations/134199657
+
+2026-02-06-berkeley-park-snow-goose.jpeg:
+  location: Berkeley Park
+  county: Denver County
+  width: 4032
+  height: 3024
+  description: Snow goose
+  datetime: "2026-02-06 12:37:13"
+  lat: 39.7820861
+  lon: -105.0464333
+  alt: A snow goose at Berkeley Park
+  caption: ""
+  observation: https://www.inaturalist.org/observations/337574764
+
+2026-08-24-denver-botanic-gardens-bee.jpeg:
+  location: Denver Botanic Gardens
+  county: Denver County
+  width: 4032
+  height: 3024
+  description: Bee
+  datetime: "2026-08-24 15:08:01"
+  lat: 39.7322417
+  lon: -104.9594194
+  alt: A bee at Denver Botanic Gardens
+  caption: ""
+  observation: https://www.inaturalist.org/observations/394294350
+
+2026-08-24-denver-botanic-gardens-leafcutter-bee.jpeg:
+  location: Denver Botanic Gardens
+  county: Denver County
+  width: 4032
+  height: 3024
+  description: Leafcutter bee
+  datetime: "2026-08-24 15:15:58"
+  lat: 39.7327944
+  lon: -104.9598389
+  alt: A leafcutter bee at Denver Botanic Gardens
+  caption: ""
+  observation: https://www.inaturalist.org/observations/394294269
+
+2026-08-24-denver-botanic-gardens-sweat-bee.jpeg:
+  location: Denver Botanic Gardens
+  county: Denver County
+  width: 4032
+  height: 3024
+  description: Sweat bee
+  datetime: "2026-08-24 16:02:30"
+  lat: 39.7323028
+  lon: -104.9614556
+  alt: A sweat bee at Denver Botanic Gardens
+  caption: ""
+  observation: https://www.inaturalist.org/observations/394292053
+
+2026-08-24-denver-botanic-gardens-queen-butterfly.jpeg:
+  location: Denver Botanic Gardens
+  county: Denver County
+  width: 4032
+  height: 3024
+  description: Queen butterfly
+  datetime: "2026-08-24 17:10:23"
+  lat: 39.7312083
+  lon: -104.9629444
+  alt: A queen butterfly at Denver Botanic Gardens
+  caption: ""
+  observation: https://www.inaturalist.org/observations/394289161
+  highlight: true
+
+2026-08-24-denver-botanic-gardens-monarch-butterfly.jpeg:
+  location: Denver Botanic Gardens
+  county: Denver County
+  width: 4032
+  height: 3024
+  description: Monarch butterfly
+  datetime: "2026-08-24 17:19:48"
+  lat: 39.7311333
+  lon: -104.9627833
+  alt: A monarch butterfly at Denver Botanic Gardens
+  caption: ""
+  observation: https://www.inaturalist.org/observations/394288891
+  highlight: true
+
+2026-08-24-cheesman-park-two-striped-grasshopper.jpeg:
+  location: Cheesman Park
+  county: Denver County
+  width: 4032
+  height: 3024
+  description: Two-striped grasshopper
+  datetime: "2026-08-24 17:57:58"
+  lat: 39.7320833
+  lon: -104.9637361
+  alt: A two-striped grasshopper at Cheesman Park
+  caption: ""
+  observation: https://www.inaturalist.org/observations/394285184
+
+2024-08-30-crown-hill-park-band-winged-meadowhawk.jpeg:
+  location: Crown Hill Park
+  county: Jefferson County
+  width: 4032
+  height: 3024
+  description: Band-winged meadowhawk
+  datetime: "2024-08-30 18:20:52"
+  lat: 39.7593389
+  lon: -105.0985028
+  alt: A band-winged meadowhawk at Crown Hill Park
+  caption: ""
+  observation: https://www.inaturalist.org/observations/238883146
+
+2026-07-14-washington-park-sweat-bee.jpeg:
+  location: Washington Park
+  county: Denver County
+  width: 4032
+  height: 3024
+  description: Sweat bee
+  datetime: "2026-07-14 09:22:13"
+  lat: 39.6971056
+  lon: -104.9707944
+  alt: A sweat bee at Washington Park
+  caption: ""
+  observation: https://www.inaturalist.org/observations/381426365
+
+2022-07-31-gore-range-trail-boisduvals-blue.jpeg:
+  location: Gore Range Trail
+  county: Summit County
+  width: 4032
+  height: 3024
+  description: Boisduval's blue
+  datetime: "2022-07-31 10:21:56"
+  lat: 39.5119444
+  lon: -106.1645500
+  alt: A boisduval's blue at Gore Range Trail
+  caption: ""
+  observation: https://www.inaturalist.org/observations/134002975
+
+2024-10-05-denver-botanic-gardens-monarch-butterfly.jpeg:
+  location: Denver Botanic Gardens
+  county: Denver County
+  width: 4032
+  height: 3024
+  description: Monarch butterfly
+  datetime: "2024-10-05 15:37:41"
+  lat: 39.7312250
+  lon: -104.9626000
+  alt: A monarch butterfly at Denver Botanic Gardens
+  caption: ""
+  observation: https://www.inaturalist.org/observations/245844111
+
+2024-07-23-acorn-creek-loop-trail-northwestern-fritillary.jpeg:
+  location: Acorn Creek Loop Trail
+  county: Summit County
+  width: 4032
+  height: 3024
+  description: Northwestern fritillary
+  datetime: "2024-07-23 12:56:12"
+  lat: 39.7600250
+  lon: -106.1046139
+  alt: A northwestern fritillary at Acorn Creek Loop Trail
+  caption: ""
+  observation: https://www.inaturalist.org/observations/231300923
+
+2025-06-12-grassland-trail-jumping-spider.jpeg:
+  location: Grassland Trail
+  county: Larimer County
+  width: 4032
+  height: 3024
+  description: Jumping spider
+  datetime: "2025-06-12 14:06:33"
+  lat: 40.4247750
+  lon: -105.0439750
+  alt: A jumping spider at Grassland Trail
+  caption: ""
+  observation: https://www.inaturalist.org/observations/289169428
+  highlight: true
+
+2024-10-03-crown-hill-park-dodder-wide.jpeg:
+  folder: field-notes/crown-hill-park-dodder
+  location: Crown Hill Park
+  county: Jefferson County
+  width: 4032
+  height: 3024
+  description: Dodder
+  datetime: "2024-10-03 17:27:02"
+  lat: 39.7566194
+  lon: -105.1067278
+  alt: Orange thread-like Dodder vines draped over dense Water Smartweed at the edge of Crown Hill Park Lake.
+  caption: ""
+  observation: https://www.inaturalist.org/observations/245490499
+  gallery: false
+
+2024-10-03-crown-hill-park-dodder-haustoria.jpeg:
+  folder: field-notes/crown-hill-park-dodder
+  location: Crown Hill Park
+  county: Jefferson County
+  width: 1730
+  height: 1298
+  description: Dodder
+  datetime: "2024-10-03 17:27:28"
+  lat: 39.7566250
+  lon: -105.1067667
+  alt: Close-up of small bump-like haustoria where an orange Dodder vine wraps around a Water Smartweed stem.
+  caption: ""
+  observation: https://www.inaturalist.org/observations/245490499
+  gallery: false
+
+2024-10-17-crown-hill-park-dodder-blooming.jpeg:
+  folder: field-notes/crown-hill-park-dodder
+  location: Crown Hill Park
+  county: Jefferson County
+  width: 4032
+  height: 3024
+  description: Dodder
+  datetime: "2024-10-17 17:37:39"
+  lat: 39.7566306
+  lon: -105.1067583
+  alt: Dodder vines in bloom, tiny white flower clusters among the tangled orange strands over Water Smartweed.
+  caption: ""
+  observation: https://www.inaturalist.org/observations/247840460
+  gallery: false
+
+2026-08-09-crown-hill-park-dodder-rediscovery.jpeg:
+  folder: field-notes/crown-hill-park-dodder
+  location: Crown Hill Park
+  county: Jefferson County
+  width: 3768
+  height: 5023
+  description: Dodder
+  datetime: "2026-08-09 18:36:12"
+  lat: 39.7597306
+  lon: -105.1001444
+  alt: Orange Dodder vines wrapped around Water Smartweed in a different spot along the Crown Hill Park Lake shore.
+  caption: ""
+  observation: https://www.inaturalist.org/observations/389884955
+  gallery: false

@@ -1,3 +1,4 @@
 {% assign photo = site.data.photos[include.filename] %}
-{% assign photo_path = photo.county | slugify | append: "/" | append: include.filename %}
+{% if photo.folder %}{% assign photo_folder = photo.folder %}{% else %}{% assign photo_folder = photo.county | slugify %}{% endif %}
+{% assign photo_path = photo_folder | append: "/" | append: include.filename %}
 <img src="https://jaredlincenberg.github.io/photos/{{ photo_path }}" alt="{{ include.alt | default: photo.alt | escape }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="lazy">
