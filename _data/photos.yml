@@ -433,3 +433,148 @@
   alt: Planted native flower beds in the Big Garden at Washington Park, facing north — mowed paths curve between defined beds, sparse coreopsis and cosmos in the near foreground giving way to dense goldenrod behind, with a residential tower on the skyline beyond the trees.
   caption: "The Big Garden's native beds in bloom, late summer."
   gallery: false
+
+2026-08-15-silverthorne-many-plumed-moth.jpeg:
+  location: Silverthorne
+  county: Summit County
+  width: 2048
+  height: 1536
+  description: Many-plumed moth
+  datetime: "2026-08-15 10:34:57"
+  lat: 39.6540722
+  lon: -106.0941694
+  alt: A many-plumed moth at Silverthorne
+  caption: ""
+  observation: https://www.inaturalist.org/observations/391457459
+  highlight: true
+
+2026-08-15-silverthorne-many-plumed-moth-2.jpeg:
+  location: Silverthorne
+  county: Summit County
+  width: 4032
+  height: 3024
+  description: Many-plumed moth
+  datetime: "2026-08-15 10:36:13"
+  lat: 39.6540361
+  lon: -106.0941250
+  alt: A many-plumed moth at Silverthorne
+  caption: ""
+  observation: https://www.inaturalist.org/observations/391457459
+
+2026-08-15-silverthorne-root-maggot-fly.jpeg:
+  location: Silverthorne
+  county: Summit County
+  width: 4032
+  height: 3024
+  description: Root-maggot fly
+  datetime: "2026-08-15 14:13:47"
+  lat: 39.6540361
+  lon: -106.0943611
+  alt: A root-maggot fly at Silverthorne
+  caption: ""
+  observation: https://www.inaturalist.org/observations/391564124
+
+2026-08-16-north-tenmile-trail-ruddy-copper.jpeg:
+  location: North Tenmile Trail
+  county: Summit County
+  width: 4032
+  height: 3024
+  description: Ruddy copper
+  datetime: "2026-08-16 14:42:27"
+  lat: 39.5768500
+  lon: -106.1425167
+  alt: A ruddy copper at North Tenmile Trail
+  caption: ""
+  observation: https://www.inaturalist.org/observations/391924104
+
+2026-08-16-north-tenmile-trail-ruddy-copper-2.jpeg:
+  location: North Tenmile Trail
+  county: Summit County
+  width: 4032
+  height: 3024
+  description: Ruddy copper
+  datetime: "2026-08-16 15:34:44"
+  lat: 39.5769722
+  lon: -106.1502611
+  alt: A ruddy copper at North Tenmile Trail
+  caption: ""
+  observation: https://www.inaturalist.org/observations/391920098
+  highlight: true
+
+2026-08-16-north-tenmile-trail-char.jpeg:
+  location: North Tenmile Trail
+  county: Summit County
+  width: 4032
+  height: 3024
+  description: Char
+  datetime: "2026-08-16 16:04:56"
+  lat: 39.5777861
+  lon: -106.1295167
+  alt: A char at North Tenmile Trail
+  caption: ""
+  observation: https://www.inaturalist.org/observations/391921092
+
+2026-08-21-berkeley-park-citronella-ant.jpeg:
+  location: Berkeley Park
+  county: Denver County
+  width: 3024
+  height: 2429
+  description: Citronella ant
+  datetime: "2026-08-21 13:37:50"
+  lat: 39.7814361
+  lon: -105.0487361
+  alt: A citronella ant at Berkeley Park
+  caption: ""
+  observation: https://www.inaturalist.org/observations/393287458
+
+2026-08-21-berkeley-park-greenbottle-fly.jpeg:
+  location: Berkeley Park
+  county: Denver County
+  width: 4032
+  height: 3024
+  description: Greenbottle fly
+  datetime: "2026-08-21 13:40:22"
+  lat: 39.7815472
+  lon: -105.0488667
+  alt: A greenbottle fly at Berkeley Park
+  caption: ""
+  observation: https://www.inaturalist.org/observations/393287305
+
+2026-08-21-berkeley-park-carpenter-ant.jpeg:
+  location: Berkeley Park
+  county: Denver County
+  width: 3849
+  height: 2887
+  description: Carpenter ant
+  datetime: "2026-08-21 14:04:21"
+  lat: 39.7806472
+  lon: -105.0504389
+  alt: A carpenter ant at Berkeley Park
+  caption: ""
+  observation: https://www.inaturalist.org/observations/393285821
+
+2026-08-21-inspiration-point-park-potter-wasp.jpeg:
+  location: Inspiration Point Park
+  county: Denver County
+  width: 4032
+  height: 3024
+  description: Boll's potter wasp
+  datetime: "2026-08-21 15:50:29"
+  lat: 39.7871333
+  lon: -105.0605611
+  alt: A Boll's potter wasp at Inspiration Point Park
+  caption: ""
+  observation: https://www.inaturalist.org/observations/393313003
+
+2026-08-21-inspiration-point-park-verbena.jpeg:
+  location: Inspiration Point Park
+  county: Denver County
+  width: 4032
+  height: 3024
+  description: Bigbract verbena
+  datetime: "2026-08-21 15:51:35"
+  lat: 39.7870306
+  lon: -105.0602278
+  alt: A bigbract verbena at Inspiration Point Park
+  caption: ""
+  observation: https://www.inaturalist.org/observations/393312933
