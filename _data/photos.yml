@@ -823,3 +823,131 @@
   caption: ""
   observation: https://www.inaturalist.org/observations/389884955
   gallery: false
+
+2026-08-30-kneebone-open-space-green-striped-grasshopper.jpeg:
+  location: Kneebone Open Space
+  county: Boulder County
+  width: 4032
+  height: 3024
+  description: Green-striped grasshopper
+  datetime: "2026-08-30 10:03:22"
+  lat: 40.0142222
+  lon: -105.0888444
+  alt: A green-striped grasshopper at Kneebone Open Space
+  caption: ""
+  observation: https://www.inaturalist.org/observations/395927444
+  tags: [bioblitz, butterfly-pavilion, open-space]
+
+2026-08-30-kneebone-open-space-true-hopper.jpeg:
+  location: Kneebone Open Space
+  county: Boulder County
+  width: 4032
+  height: 3024
+  description: True hopper
+  datetime: "2026-08-30 10:46:59"
+  lat: 40.0139306
+  lon: -105.08995
+  alt: A true hopper at Kneebone Open Space
+  caption: ""
+  observation: https://www.inaturalist.org/observations/395936198
+  tags: [bioblitz, butterfly-pavilion, open-space]
+
+2026-08-30-kneebone-open-space-crab-spider.jpeg:
+  location: Kneebone Open Space
+  county: Boulder County
+  width: 4032
+  height: 3024
+  description: Crab spider
+  datetime: "2026-08-30 10:57:16"
+  lat: 40.013925
+  lon: -105.0899361
+  alt: A crab spider at Kneebone Open Space
+  caption: ""
+  observation: https://www.inaturalist.org/observations/395936393
+  tags: [bioblitz, butterfly-pavilion, open-space]
+
+2026-08-30-kneebone-open-space-large-tailed-aphideater.jpeg:
+  location: Kneebone Open Space
+  county: Boulder County
+  width: 4032
+  height: 3024
+  description: Large-tailed aphideater
+  datetime: "2026-08-30 11:34:40"
+  lat: 40.0146611
+  lon: -105.088525
+  alt: A large-tailed aphideater at Kneebone Open Space
+  caption: ""
+  observation: https://www.inaturalist.org/observations/395940217
+  tags: [bioblitz, butterfly-pavilion, open-space]
+  highlight: true
+
+2026-08-30-kneebone-open-space-bee-fly.jpeg:
+  location: Kneebone Open Space
+  county: Boulder County
+  width: 4032
+  height: 3024
+  description: Bee fly
+  datetime: "2026-08-30 11:46:25"
+  lat: 40.0146472
+  lon: -105.0894694
+  alt: A bee fly at Kneebone Open Space
+  caption: ""
+  observation: https://www.inaturalist.org/observations/395943860
+  tags: [bioblitz, butterfly-pavilion, open-space]
+  highlight: true
+
+2026-08-30-kneebone-open-space-moth.jpeg:
+  location: Kneebone Open Space
+  county: Boulder County
+  width: 4032
+  height: 3024
+  description: Butterfly or moth
+  datetime: "2026-08-30 12:22:50"
+  lat: 40.0132111
+  lon: -105.092575
+  alt: A butterfly or moth at Kneebone Open Space
+  caption: ""
+  observation: https://www.inaturalist.org/observations/395966943
+  tags: [bioblitz, butterfly-pavilion, open-space]
+
+2026-08-30-kneebone-open-space-swift-crab-spider.jpeg:
+  location: Kneebone Open Space
+  county: Boulder County
+  width: 4032
+  height: 3024
+  description: Swift crab spider
+  datetime: "2026-08-30 12:22:57"
+  lat: 40.0132111
+  lon: -105.092575
+  alt: A swift crab spider at Kneebone Open Space
+  caption: ""
+  observation: https://www.inaturalist.org/observations/395967653
+  tags: [bioblitz, butterfly-pavilion, open-space]
+
+2026-08-30-kneebone-open-space-western-leafcutter-bee.jpeg:
+  location: Kneebone Open Space
+  county: Boulder County
+  width: 4032
+  height: 3024
+  description: Western leafcutter bee
+  datetime: "2026-08-30 12:59:19"
+  lat: 40.0112
+  lon: -105.0932
+  alt: A western leafcutter bee at Kneebone Open Space
+  caption: ""
+  observation: https://www.inaturalist.org/observations/395978587
+  tags: [bioblitz, butterfly-pavilion, open-space]
+
+2026-08-30-kneebone-open-space-spur-throated-grasshopper.jpeg:
+  location: Kneebone Open Space
+  county: Boulder County
+  width: 4032
+  height: 3024
+  description: Spur-throated grasshopper
+  datetime: "2026-08-30 13:13:19"
+  lat: 40.0121722
+  lon: -105.0919417
+  alt: A spur-throated grasshopper at Kneebone Open Space
+  caption: ""
+  observation: https://www.inaturalist.org/observations/395984837
+  tags: [bioblitz, butterfly-pavilion, open-space]
